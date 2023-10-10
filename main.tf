@@ -40,7 +40,6 @@ resource "azurerm_linux_virtual_machine" "vm" {
   network_interface_ids = [azurerm_network_interface.network_interface.id]
 
   size       = "Standard_D2s_v3"
-  admin_username = "jurate"
  
 
    
