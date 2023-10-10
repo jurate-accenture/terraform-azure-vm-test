@@ -45,7 +45,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
 
    
   disable_password_authentication = false
-  admin_username                   = "jurate177"  # Replace with your username
+  admin_username                   = "jurate"  # Replace with your username
   admin_password                   = "myvm177"  # Replace with your desired password
  
     
