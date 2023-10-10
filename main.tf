@@ -43,7 +43,11 @@ resource "azurerm_linux_virtual_machine" "vm" {
   admin_username = "jurate"
  
 
-    
+   
+  disable_password_authentication = false
+  admin_username                   = "jurate177"  # Replace with your username
+  admin_password                   = "myvm177"  # Replace with your desired password
+ 
     
 
   os_disk {
